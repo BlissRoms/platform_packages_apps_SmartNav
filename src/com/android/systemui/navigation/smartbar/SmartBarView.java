@@ -88,6 +88,9 @@ public class SmartBarView extends BaseNavigationBar {
     final static int PULSE_FADE_OUT_DURATION = 250;
     final static int PULSE_FADE_IN_DURATION = 200;
 
+    private Handler mHandler;
+    private static boolean mIssued;
+
     static final int IME_HINT_MODE_HIDDEN = 0;
     static final int IME_HINT_MODE_ARROWS = 1;
     static final int IME_HINT_MODE_PICKER = 2;
@@ -245,6 +248,7 @@ public class SmartBarView extends BaseNavigationBar {
         ctx = context;
         mBarTransitions = new SmartBarTransitions(this);
         mEditor = new SmartBarEditor(this);
+        mHandler = new Handler();
         mSmartObserver.addListener(mObservable);
         createBaseViews();
         SetOpaDurations();
@@ -508,7 +512,15 @@ public class SmartBarView extends BaseNavigationBar {
     }
 
     private void reapplyDarkIntensity() {
-        mBarTransitions.reapplyDarkIntensity();
+        if (mIssued) return;
+        mIssued = true;
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mIssued = false;
+                mBarTransitions.reapplyDarkIntensity();
+            }
+        }, 200);
     }
 
     @Override
