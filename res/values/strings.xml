@@ -26,15 +26,15 @@
     <string name="label_action_screenrecord">Record screen</string>
     <string name="label_action_expanded_desktop">Expanded desktop</string>
     <string name="label_action_screen_off">Turn off screen</string>
-    <string name="label_action_screen_on">Wake device</string>
+    <string name="label_action_screen_on">Wake device~</string>
     <string name="label_action_force_close_app">Force close app</string>
     <string name="label_action_search_assistant">Search assistant</string>
-    <string name="label_action_google_now_on_tap">Google assistant</string>
+    <string name="label_action_google_now_on_tap">Google assistant*</string>
     <string name="label_action_voice_search">Voice search</string>
     <string name="label_action_in_app_search">In-app search</string>
-    <string name="label_action_flashlight">Flashlight</string>
-    <string name="label_action_bluetooth">Bluetooth</string>
-    <string name="label_action_wifi">WiFi</string>
+    <string name="label_action_flashlight">Flashlight~</string>
+    <string name="label_action_bluetooth">Bluetooth~</string>
+    <string name="label_action_wifi">WiFi~</string>
     <string name="label_action_hotspot">Hotspot</string>
     <string name="label_action_last_app">Last app</string>
     <string name="label_action_overview">Recents</string>
@@ -54,11 +54,12 @@
     <string name="label_action_split_screen">Split screen</string>
     <string name="label_action_one_handed_mode_left">One handed mode (left side)</string>
     <string name="label_action_one_handed_mode_right">One handed mode (right side)</string>
-    <string name="label_action_media_left">Previous track</string>
-    <string name="label_action_media_right">Next track</string>
+    <string name="label_action_media_left">Previous track~</string>
+    <string name="label_action_media_right">Next track~</string>
     <string name="label_action_assistant_sound_search">Google sound search</string>
-    <string name="label_action_sound_modes">Ringer/Vibrate/Silent</string>
-    <string name="label_action_play_pause">Play/Pause media</string>
+    <string name="label_action_sound_modes">Ringer/Vibrate/Silent~</string>
+    <string name="label_action_play_pause">Play/Pause media~</string>
+    <string name="label_action_camera">Camera*</string>
 
     <!-- Smartbar -->
     <string name="label_smartbar_actions">Actions</string>

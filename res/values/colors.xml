@@ -46,6 +46,7 @@
     <color name="icon_color_in_app_search">@color/icon_color_default</color>
     <color name="icon_color_flashlight">@color/icon_color_default</color>
     <color name="icon_color_bluetooth">@color/icon_color_default</color>
+    <color name="icon_color_camera">@color/icon_color_default</color>
     <color name="icon_color_wifi">@color/icon_color_default</color>
     <color name="icon_color_hotspot">@color/icon_color_default</color>
     <color name="icon_color_last_app">@color/icon_color_default</color>
